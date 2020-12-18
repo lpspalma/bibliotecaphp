@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+body, html{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	color: #666666;
+	margin: 0 auto;
+}
+.logo{
+	width: 30%;
+}
+.titulo{
+	background-color: #f75701;
+	color: #FFFFFF;
+	padding: 3%;
+}
+.formulario{
+	width: 30%;
+	padding: 2%;
+}
+.campo{
+	width: 98%;
+	padding: 4%;
+	box-sizing: border-box;
+	margin: 2px;
+}
+
+.meiocampo{
+	width: 48%;
+	padding: 4%;
+	box-sizing: border-box;
+	margin: 2px;
+	float: left;
+	
+}
+.botao{
+	background-color: #666666;
+	color: #FFFFFF;
+	border: none;
+	padding: 5%;
+	margin: 2px;
+	cursor: pointer;
+	width: 40%;
+}
+.botao:hover{
+	background-color: transparent;
+	border: 1px solid #f75701;
+	color: #666666;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 0 1%;
+}
+
+nav{
+	width: 100%;
+	text-align: right;
+}
+nav a{
+	color: #666;
+	padding: 0 1%;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #000;
+	
+}
+	
+.newprod{
+	float: left;
+	margin-left: 1%;
+	margin-top: -1.5%;
+	margin-bottom: 0;
+}
+
+.newprod a{
+	color: #666;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.newprod a:hover{
+	color:#000;
+	text-decoration: underline;
+}
+
+.titulopg{
+	text-align: center;
+	color: #f75701;
+	border-bottom: #f75701 1px solid;
+	border-top: #f75701 1px solid;
+	padding: 10px;
+}
+
+.titulotabela td{
+	font-weight: bold;
+	padding: 10px;
+	margin: 0;
+}
+
+tr:nth-child(even){
+	background-color: #eee;
+}
+tr:nth-child(odd){
+	background-color: #ddd;
+}
+.titulotabela a{
+	color: #666;
+}
+
+
+.iconpg{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+}
+
+
+	
+	
+	
+	
